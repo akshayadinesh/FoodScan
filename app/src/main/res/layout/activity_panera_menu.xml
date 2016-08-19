@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.akshayadinesh.foodscan.PaneraMenu">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="163dp"
+                android:layout_height="149dp"
+                android:src="@drawable/lowfatvegetarianblackbeansoupbowl" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="Low-Fat Vegetarian Black Bean Soup"
+                    android:layout_marginBottom="3dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plump black beans simmered in a spicy vegetarian broth with onions, red bell pepper, garlic and cumin."
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contains: none"
+                    android:textAllCaps="true"
+                    android:textColor="@color/green"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="163dp"
+            android:layout_height="149dp"
+            android:src="@drawable/summercornchowderbowl" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:text="Vegetarian Summer Corn Chowder"
+                android:layout_marginBottom="3dp"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roasted corn and skin-on red potatoes slowly simmered with sweet cream, poblano peppers and cilantro."
+                android:layout_marginBottom="3dp"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contains: Milk"
+                android:textAllCaps="true"
+                android:textColor="@color/yellow"
+
+                android:id="@+id/textView4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        android:id="@+id/item1">
+
+        <ImageView
+            android:layout_width="163dp"
+            android:layout_height="149dp"
+            android:src="@drawable/broccolicheddarsoupbowl" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:text="Broccoli Cheddar Soup"
+                android:layout_marginBottom="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chopped broccoli, shredded carrots and select seasonings simmered in a velvety smooth cheese sauce. "
+                android:layout_marginBottom="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contains: Gluten, milk"
+                android:textAllCaps="true"
+                android:textColor="@color/red"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        android:id="@+id/item2">
+
+        <ImageView
+            android:layout_width="163dp"
+            android:layout_height="149dp"
+            android:src="@drawable/bistrofrenchonionsoupbowl" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:text="Bistro French Onion Soup"
+                android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sweet onions in a savory broth with classic sherry wine vinegar gastrique and sea salts topped with gruyere and black pepper focaccia croutons."
+                android:layout_marginBottom="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contains: gluten, milk"
+                android:textAllCaps="true"
+                android:textColor="@color/red"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        android:id="@+id/item3">
+
+        <ImageView
+            android:layout_width="163dp"
+            android:layout_height="149dp"
+            android:src="@drawable/bakedpotatosoupbowl" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:text="Baked Potato Soup"
+                android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home-style cuts of russet potatoes simmered with select seasonings and smoked bacon in a rich cream sauce flavored with spring onion and snipped chives. "
+                android:layout_marginBottom="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contains: meat, milk"
+                android:textAllCaps="true"
+                android:textColor="@color/red"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:visibility="invisible"
+            android:id="@+id/item4">
+
+            <ImageView
+                android:layout_width="163dp"
+                android:layout_height="149dp"
+                android:src="@drawable/creamytomatosoupwithcroutonsbowl" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="Vegetarian Creamy Tomato Soup"
+                    android:layout_marginBottom="3dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vine-ripened pear tomatoes pureed with fresh cream for a velvety smooth flavor accented by hints of red pepper and oregano."
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contains: milk, gluten"
+                    android:textAllCaps="true"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:visibility="invisible"
+            android:id="@+id/item5">
+
+            <ImageView
+                android:layout_width="163dp"
+                android:layout_height="149dp"
+                android:src="@drawable/lowfatgardenvegetablesoupwithpestobowl" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="Low-Fat Vegetarian Garden Vegetable Soup with Pesto"
+                    android:layout_marginBottom="3dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A low-fat vegetarian soup with diced tomatoes, sliced zucchini, yellow beans, fresh Swiss chard, cauliflower, bell peppers and pearled barley."
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contains: milk, gluten"
+                    android:textAllCaps="true"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:visibility="invisible"
+            android:id="@+id/item6">
+
+            <ImageView
+                android:layout_width="163dp"
+                android:layout_height="149dp"
+                android:src="@drawable/newenglandclamchowderbowl" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="New England Clam Chowder"
+                    android:layout_marginBottom="3dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chopped sea clams, diced potato, celery, onions and traditional seasonings simmered in a rich, creamy broth."
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contains: meat, milk, gluten"
+                    android:textAllCaps="true"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:visibility="invisible"
+            android:id="@+id/item7">
+
+            <ImageView
+                android:layout_width="163dp"
+                android:layout_height="149dp"
+                android:src="@drawable/lowfatallnaturalchickennoodlesoupbowl" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="Low-Fat Chicken Noodle Soup"
+                    android:layout_marginBottom="3dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fresh vegetables and tender all-white meat chicken breast simmered in a delicately seasoned chicken broth with traditional egg noodles."
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contains: gluten, eggs"
+                    android:textAllCaps="true"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
